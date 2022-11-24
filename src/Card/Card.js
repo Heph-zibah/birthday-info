@@ -5,7 +5,7 @@ import { TiDelete } from 'react-icons/ti';
 const Card = ({ people, handleDelete }) => {
 	return (
 		<>
-			<div>
+			<section>
 				{people.map((person) => {
 					const { id, image, name, date } = person;
 					return (
@@ -23,7 +23,7 @@ const Card = ({ people, handleDelete }) => {
 						</article>
 					);
 				})}
-			</div>
+			</section>
 		</>
 	);
 };
