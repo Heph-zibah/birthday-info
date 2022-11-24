@@ -4,8 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## `Project info`
 
-In the project directory, you can run:
-
 ### `Project screenshot`
 
 ![alt text](./src/Assets/screenshot.png)
