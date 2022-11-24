@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
+button {
+	cursor: pointer;
+}
+section {
+	font-family: 'Roboto', sans-serif;
+}
 .birth__card {
-	background-color: aqua;
+	background-color: blue;
 	width: 100%;
 	height: 100vh;
 	font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +64,7 @@
 	justify-content: space-between;
 }
 .btn {
-	background-color: aqua;
+	background-color: blue;
 	color: #fff;
 	font-size: 1.5rem;
 	border: 0;
@@ -68,14 +75,14 @@
 	transition: 0.3s;
 }
 .btn:hover {
-	color: aqua;
+	color: blue;
 	background-color: #fff;
 	transform: scale(1);
 	box-shadow: 0px 2px rgba(0, 0, 0, 0.3);
 }
 
 .btn__ref {
-	color: aqua;
+	color: blue;
 	background-color: #fff;
 	font-size: 1.5rem;
 	border: 1px solid #ccc;
@@ -87,6 +94,6 @@
 	margin-top: 0.5rem;
 }
 .btn__ref:hover {
-	background-color: aqua;
+	background-color: blue;
 	color: #fff;
 }
